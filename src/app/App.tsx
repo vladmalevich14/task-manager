@@ -63,6 +63,7 @@ function App() {
         <Container fixed>
           <Routes>
             <Route path={"/"} element={<TodolistsList />} />
+            <Route path={"/task-manager"} element={<TodolistsList />} />
             <Route path={"/login"} element={<Login />} />
           </Routes>
         </Container>
